@@ -33,3 +33,4 @@ docker compose up
 #### browser e search koro: http://localhost:8000/users/sign_in
 #### Note: kichukhon somoy nibe
 #### Username daw: root, Password daw: w@sIm1997
+#### er por setup options asbe setup korle dashbord e niye jabe.
