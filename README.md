@@ -63,3 +63,9 @@ services:
       - ./gitlab/data:/var/opt/gitlab
 ```
 ---
+
+#### vs terminal e daw
+```bash
+docker compose up
+```
+---
