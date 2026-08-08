@@ -34,3 +34,10 @@ docker compose up
 #### Note: kichukhon somoy nibe
 #### Username daw: root, Password daw: w@sIm1997
 #### er por setup options asbe setup korle dashbord e niye jabe.
+---
+
+#### vs terminal e command daw
+```bash
+docker compose down
+```
+---
