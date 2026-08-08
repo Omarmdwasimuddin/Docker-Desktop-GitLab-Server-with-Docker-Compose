@@ -34,7 +34,7 @@ docker compose up
 #### browser e search koro: http://localhost:8000/users/sign_in
 #### Note: kichukhon somoy nibe
 #### Username daw: root, Password daw: w@sIm1997
-#### er por setup options asbe setup korle dashbord e niye jabe.
+#### er por setup options asbe [chaile skip korte parbo pore dashboard e setup korte parbo abar chaile setup korte parbo] setup korle dashbord e niye jabe.
 ---
 
 #### vs terminal e command daw
@@ -70,4 +70,10 @@ docker compose up
 ```
 > gitlab name e ekta directory build hoye jabe jekhane config, data, logs directory thakbe.
 ![](https://imgur.com/l75RhmB.png)
+---
+
+#### browser e search koro: http://localhost:8000/users/sign_in
+#### Note: kichukhon somoy nibe
+#### Username daw: root, Password daw: w@sIm1997
+#### er por setup options asbe [chaile skip korte parbo pore dashboard e setup korte parbo abar chaile setup korte parbo] setup korle dashbord e niye jabe.
 ---
