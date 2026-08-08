@@ -1,1 +1,3 @@
-# Docker-Desktop-GitLab-Server-with-Docker-Compose
+# Docker-Desktop: GitLab server with docker compose
+
+####
