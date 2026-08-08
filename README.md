@@ -68,4 +68,6 @@ services:
 ```bash
 docker compose up
 ```
+> gitlab name e ekta directory build hoye jabe jekhane config, data, logs directory thakbe.
+![](https://imgur.com/l75RhmB.png)
 ---
