@@ -22,6 +22,7 @@ services:
         gitlab_rails['initial_root_password'] = 'w@sIm1997'
         puma['worker_processes'] = 0 
 ```
+> ekhon ar version na dileo hoi.
 ---
 
 #### vs terminal e command daw
@@ -41,4 +42,24 @@ docker compose up
 docker compose down
 ```
 > Note: docker compose stop kore dile containers er data remove hoye jabe tai volume use korbo samne.
+---
+
+#### docker-compose.yml file e volumes add koro
+```bash
+version: '5.4'
+services:
+  gitlab-server:
+    image: 'gitlab/gitlab-ce'
+    container_name: my-gitlab-server
+    ports:
+      - '8000:80'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        gitlab_rails['initial_root_password'] = 'w@sIm1997'
+        puma['worker_processes'] = 0 
+    volumes:
+      - ./gitlab/config:/etc/gitlab
+      - ./gitlab/logs:/var/log/gitlab
+      - ./gitlab/data:/var/opt/gitlab
+```
 ---
