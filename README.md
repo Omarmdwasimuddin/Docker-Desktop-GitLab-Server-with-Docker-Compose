@@ -7,3 +7,19 @@ cd Demo
 code .
 ```
 ---
+
+#### DEMO Project e file create koro: docker-compose.yml
+```bash
+version: '5.4'
+services:
+  gitlab-server:
+    image: 'gitlab/gitlab-ce'
+    container_name: my-gitlab-server
+    ports:
+      - '8000:80'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        gitlab_rails['initial_root_password'] = 'w@sIm1997'
+        puma['worker_processes'] = 0 
+```
+---
