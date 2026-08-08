@@ -23,3 +23,9 @@ services:
         puma['worker_processes'] = 0 
 ```
 ---
+
+#### vs terminal e command daw
+```bash
+docker compose up
+```
+---
