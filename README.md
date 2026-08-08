@@ -40,4 +40,5 @@ docker compose up
 ```bash
 docker compose down
 ```
+> Note: docker compose stop kore dile containers er data remove hoye jabe tai volume use korbo samne.
 ---
